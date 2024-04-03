@@ -28,7 +28,7 @@ function App() {
       ],
     }); // room1, room2
     // signaling: ["ws://localhost:5173"],
-    const type = doc.getText("monaco"); // doc { "monaco": "what our IDE is showing" }
+    const type = doc.getText("monaco"); // doc { "monaco": "what our IDE is showing"}
     // Bind YJS to Monaco
     const binding = new MonacoBinding(
       type,
